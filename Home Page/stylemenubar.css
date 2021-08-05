@@ -1,0 +1,144 @@
+.menutable{
+
+font-size:25px;
+font-family:Ink Free;
+text-align:center;
+border:1px solid purple;
+font-weight:bold;
+
+}
+
+.bar{
+
+text-decoration:none;
+color:white;
+
+}
+
+.menutd{
+border-right:2px solid purple;
+}
+
+.menutd:hover{
+background-color:red;
+}
+
+.menutd:active{
+background-color:black;
+}
+
+.bluee{
+	background-color:blue;
+}
+
+.redd{
+	background-color:#FF0047;
+}
+
+
+#mercury{
+
+cursor:url(" https://i.ibb.co/MBbfLz0/mercury2.png "), auto; 
+
+}
+
+#venus{
+
+cursor:url(" https://i.ibb.co/wMsYsxh/venus2.png"), auto; 
+
+}
+
+#earth{
+
+cursor:url("https://i.ibb.co/BV1dYjL/earth2.png "), auto; 
+
+}
+
+#mars{
+
+cursor:url(" https://i.ibb.co/B2r03Rz/mars2.png"), auto; 
+
+}
+
+#jupiter{
+
+cursor:url(" https://i.ibb.co/HKWC667/jupiter3.png "), auto; 
+
+}
+
+#saturn{
+
+cursor:url(" https://i.ibb.co/FYps3q2/saturn4.png "), auto; 
+
+}
+
+#uranus{
+
+cursor:url(" https://i.ibb.co/njbd7RG/uranus2.png "), auto; 
+
+}
+
+#neptune{
+
+cursor:url(" https://i.ibb.co/TcfJNjZ/neptune2.png"), auto; 
+
+}
+
+#pluto{
+
+cursor:url(" https://i.ibb.co/LtLM08n/pluto2.png "), auto; 
+
+}
+
+
+
+#constructiongif{
+
+position:absolute;
+top:48%;
+left:50%;
+transform:translate(-50%, -50%);
+z-index:999;
+display:none;
+position:fixed;
+
+}
+
+
+#under_construction_text{
+
+font-family:arcadeclassic;
+color:#FFCC00;
+background-color:black;
+font-size:40px;
+position:absolute;
+top:83%;
+left:35%;
+z-index:999;
+display:none;
+position:fixed;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

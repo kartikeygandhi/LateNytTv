@@ -1,0 +1,16 @@
+@font-face{
+font-family:digital;           
+src:url(digital.ttf);
+
+}	   
+	   
+ #clock{
+	   
+	   font-size:55px;
+	   font-family:digital;
+	   margin-left:605px;
+	   margin-top:35px;
+	   float:left;
+	   color:red;
+	   
+	   }
