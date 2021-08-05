@@ -3,7 +3,7 @@ body{
 	padding:0;
 	background-image:url('Imagess/Galaxy.gif');
 	background-size:cover;
-	font-family:joystix monospace;
+	font-family:arcadeclassic;
 }
 
 
@@ -144,7 +144,7 @@ z-index: 4;
 
 .okay{
 	
-	font-family:joystix monospace;
+	font-family:arcadeclassic;
 	border:3px solid red;
 	border-radius:5px;
 	font-size:30px;
@@ -162,7 +162,7 @@ z-index: 4;
 
 .next1{
 	
-	font-family:joystix monospace;
+	font-family:arcadeclassic;
 	border:3px solid red;
 	border-radius:5px;
 	font-size:30px;
@@ -195,8 +195,8 @@ z-index: 4;
 
 @font-face{
 	
-	font-family:joystix monospace;
-	src:url(joystix monospace.ttf);
+	font-family:arcadeclassic;
+	src:url(font/arcadeclassic.ttf);
 }
 
 
