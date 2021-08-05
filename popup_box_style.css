@@ -1,0 +1,210 @@
+body{
+	margin:0;
+	padding:0;
+	background-image:url('Imagess/Galaxy.gif');
+	background-size:cover;
+	font-family:arcadeclassic;
+}
+
+
+
+#box0{
+
+background-color:black;
+width:500px;
+height:200px;
+color:white;
+border: 12px dashed red;
+font-size:50px;
+padding:20px;
+padding-top:0px;
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%, -50%);
+border-radius: 8px;
+z-index: 1;
+
+}
+
+
+#box1{
+
+background-color:black;
+width:500px;
+height:200px;
+color:white;
+border: 12px dashed red;
+font-size:40px;
+padding:20px;
+padding-top:0px;
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%, -50%);
+border-radius: 8px;
+display:none;
+z-index: 2;
+
+}
+
+#box2{
+
+background-color:black;
+width:500px;
+height:200px;
+color:white;
+border: 12px dashed red;
+font-size:30px;
+padding:20px;
+padding-top:0px;
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%, -50%);
+border-radius: 8px;
+display:none;
+z-index: 3;
+
+}
+
+#box3{
+
+background-color:black;
+width:500px;
+height:200px;
+color:white;
+border: 12px dashed red;
+font-size:30px;
+padding:20px;
+padding-top:0px;
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%, -50%);
+border-radius: 8px;
+display:none;
+z-index: 4;
+
+}
+
+.message{
+
+	position:relative;
+	left:10px;
+	top:10px;
+
+	
+	
+}
+.box1two{
+	
+	position:relative;
+	left:10px;
+	bottom:55px;
+
+}
+
+.box2two{
+	
+	position:relative;
+	left:10px;
+	top:25px;
+
+}
+
+.box3two{
+	
+	position:relative;
+	left:10px;
+	top:15px;
+	
+
+}
+
+.binge{
+	
+	margin-top:80px;
+	color:#FF00FF;
+}
+
+
+.upar{
+	
+	margin-top:-42px;
+	
+}
+
+.upar2{
+	
+	margin-top:-32px;
+	
+}
+
+
+.okay{
+	
+	font-family:arcadeclassic;
+	border:3px solid red;
+	border-radius:5px;
+	font-size:30px;
+	background-color:black;
+	color:white;
+	margin-left:400px;
+	padding:5px 10px;
+	
+	
+}
+
+.okay:hover{
+	margin-left:415px;
+}
+
+.next1{
+	
+	font-family:arcadeclassic;
+	border:3px solid red;
+	border-radius:5px;
+	font-size:30px;
+	background-color:black;
+	color:white;
+	margin-left:400px;
+	padding:5px 10px;
+	
+	
+}
+
+.next2{
+	
+	margin-top:33px;
+	
+}
+
+.next1:hover{
+	margin-left:415px;
+}
+
+.nxt{
+	    color:aqua;
+		text-decoration:none;
+}
+
+.aqua{
+	    color:aqua;
+}
+
+@font-face{
+	
+	font-family:arcadeclassic;
+	src:url(arcadeclassic.ttf);
+}
+
+
+.corona{
+	
+	margin-top:8px;
+}
+
+.pinktext{
+ color:#FF00FF;
+}
