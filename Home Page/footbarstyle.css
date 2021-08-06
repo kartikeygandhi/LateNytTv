@@ -1,7 +1,7 @@
 @font-face{
 
-font-family:arcadeclassic;
-src:url("arcadeclassic.ttf");
+font-family:yoster;
+src:url("yoster.ttf");
 
 
 }
@@ -10,7 +10,7 @@ src:url("arcadeclassic.ttf");
 .disclaimer{
 
 font-size:100px;
-font-family:arcadeclassic;
+font-family:yoster;
 color:black;
 background-color:white;
 
@@ -31,7 +31,7 @@ background-color:white;
 .ques{
 	position:relative;
 	left:10px;
-	font-family:arcadeclassic;
+	font-family:yoster;
 	font-size:80px;
 	color:red;
 
@@ -42,7 +42,7 @@ background-color:white;
 .ans{
 	position:relative;
 	left:10px;
-	font-family:arcadeclassic;
+	font-family:yoster;
 	font-size:30px;
 	color:blue;
 	
@@ -136,7 +136,7 @@ margin-top:-6px;
 }
 
 .gn{
-	font-family:arcadeclassic;
+	font-family:yoster;
 	font-size:30px;
 	color:white;
 }

@@ -3,7 +3,7 @@ body{
 	padding:0;
 	background-image:url('Imagess/Galaxy.gif');
 	background-size:cover;
-	font-family:arcadeclassic;
+	font-family:yoster;
 }
 
 
@@ -144,7 +144,6 @@ z-index: 4;
 
 .okay{
 	
-	font-family:arcadeclassic;
 	border:3px solid red;
 	border-radius:5px;
 	font-size:30px;
@@ -162,7 +161,7 @@ z-index: 4;
 
 .next1{
 	
-	font-family:arcadeclassic;
+	font-family:yoster;
 	border:3px solid red;
 	border-radius:5px;
 	font-size:30px;
@@ -195,8 +194,8 @@ z-index: 4;
 
 @font-face{
 	
-	font-family:arcadeclassic;
-	src:url("arcadeclassic.ttf");
+	font-family:yoster;
+	src:url("yoster.ttf");
 }
 
 
