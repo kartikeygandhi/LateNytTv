@@ -1,0 +1,106 @@
+.button{
+
+
+}
+
+#instruction{
+	position:absolute;
+	left:12%;
+	top:35%;
+	width:1000px;
+	height:300px;
+    border: 4px red solid;
+	color:white;
+	font-family:ink free;
+	display:none;
+	background-color:black;
+	
+}
+
+
+.inst{
+	
+	text-align:center;
+	background-color:black;
+}
+
+.instructiontext{
+	
+	font-size:40px;
+	color:#15f4ee;
+	
+}
+
+.keytext{
+	
+	color:red;
+}
+
+.presskey{
+	
+	color:#15f4ee;
+}
+.key{
+	
+	background-color:black;
+	float:left;
+	width:50%;
+	margin-left:7px;
+	
+}
+
+.keys{
+	
+	background-color:black;
+	width:48%;
+	float:left;
+}
+
+.j{
+	
+	font-size:34px;
+}
+
+.k{
+	
+	font-size:24px;
+}
+
+.aboutdiv{
+	
+	background-color:black;
+    margin-left:9px;
+
+}
+
+
+
+
+.instrutionbtn{
+	
+	background-color:black;
+	border: 2px red solid;
+	border-radius:10px;
+	padding: 0px 10px;
+	
+}
+
+.instmiddiv{
+	
+	float:left;
+	margin-right:445px;
+}
+
+.desc{
+		
+	font-size:34px;	
+	color:#15f4ee;
+}
+
+.dummy{
+	
+	font-size:24px;
+	font-family:ink free;
+	
+}
+
