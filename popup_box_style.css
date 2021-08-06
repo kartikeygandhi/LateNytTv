@@ -144,6 +144,7 @@ z-index: 4;
 
 .okay{
 	
+	font-family:yoster;
 	border:3px solid red;
 	border-radius:5px;
 	font-size:30px;
@@ -195,7 +196,7 @@ z-index: 4;
 @font-face{
 	
 	font-family:yoster;
-	src:url("yoster.ttf");
+	src:url(yoster.ttf);
 }
 
 
