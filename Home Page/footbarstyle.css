@@ -1,10 +1,10 @@
-@font-face{
+ /* @font-face{
 
 font-family:yoster;
 src:url("yoster.ttf");
 
 
-}
+}  */
 
 
 .disclaimer{
@@ -20,9 +20,10 @@ background-color:white;
 .footbar{
 
 width:1270px;
-height:520px;
+height:530px;
 color:black;
 background-color:white;	
+
 	
 }
 
@@ -31,7 +32,7 @@ background-color:white;
 .ques{
 	position:relative;
 	left:10px;
-	font-family:yoster;
+	font-family:Times new roman;
 	font-size:80px;
 	color:red;
 
@@ -42,10 +43,10 @@ background-color:white;
 .ans{
 	position:relative;
 	left:10px;
-	font-family:yoster;
 	font-size:30px;
 	color:blue;
-	
+	font-family:Ink Free;
+	font-weight:bold;
 }
 
 .oak{
