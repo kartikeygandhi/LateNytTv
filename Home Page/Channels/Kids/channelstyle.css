@@ -102,7 +102,7 @@ z-index:99999999;
 .previous{
 	
 	float:left;
-	margin-right:460px;
+	margin-right:420px;
 	margin-left:5px;
 	margin-top:0px;
 }
@@ -170,3 +170,7 @@ z-index:99999999;
 
 /*  NEXT BUTTON FINISH */
 
+.volumeup{
+	float:left;
+	margin-right:5px;
+}

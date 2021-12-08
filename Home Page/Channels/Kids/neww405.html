@@ -7,8 +7,40 @@
 <link rel="stylesheet" href="remotestyle.css">
 <link rel="stylesheet" href="clockchannel.css">
 <link rel="stylesheet" href="instructionstyle.css">
-	   
+
+<style type="text/css">
+
+  .videoWrapper {
+	  position: relative;
+	  padding-bottom: 39.40%;
+	  padding-top: 25px;
+	  height: 0;
+  }
+  
+.videoWrapper iframe {
+	  position: absolute;
+	  top: 60px;
+	  left: 0;
+	  width: 100%;
+	  height: 466px;
+  }
+  
+    button#mute-video {
+	
+	background-color:black;
+	border: 2px red solid;
+	border-radius:10px;
+	padding-top: 3px;
+	padding-bottom:3px;
+	padding-left: 15px;
+	padding-right: 15px;
+	
+ }
+ 
+ </style>
+ 
 </head>
+
 <body style="margin:0; background-color:#000"> 
 <audio id="myaudio" src="one.wav"></audio>
 <audio id="my" src="two.wav"></audio>
@@ -348,13 +380,21 @@
 </div>
 
                                                            <!-- REMOTE ENDS -->
+<!--
+<div>  
 
-<div>
 
 <iframe width="100%" height="460" src="https://www.youtube.com/embed/Dt2N_lBlYhU?autoplay=1&mute=1&controls=0&showinfo=0&autohide=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-</div>
 
+</div> -->
+
+    <div class="videoWrapper pp">
+	
+           <div id="player"></div>
+		   
+   </div> 
+   
 
                                                      <!-- ABOUT DIV START -->
 
@@ -394,6 +434,10 @@
 <button class="channelpreviousbtn" onmousedown="document.getElementById('my').play()"> <a class="previoustext" href="https://kartikeygandhi.github.io/LateNytTv/Home%20Page/Channels/Kids/404.html">  <img src="Imagess/left.png" width="40px" height="35px"> <span class="pretextt"> Previous </span>  </a> </button>
 </div>
 
+<div class="volumeup">
+<button id="mute-video"> <a href="#"> <img src="Imagess/audio2.jpeg" width="40px" height="30px"> </a> </button>
+</div>
+
 <div class="instmiddiv">
 <button class="instrutionbtn" onclick="pop()"> <a href="#"> <img src="Imagess/ttt.png" width="50px" height="37px"> </a></button>
 </div>
@@ -403,14 +447,59 @@
 <button class="channelnextbtn" onmousedown="document.getElementById('my').play()"> <a class="previoustext" href="https://kartikeygandhi.github.io/LateNytTv/Home%20Page/Channels/Kids/406.html"><span class="nextext"> Next </span> <img src="Imagess/right.png" width="40px" height="35px">  </a> </button>
 </div>
 
+<br>
+
 
 </div>
 
                                                <!-- PREVIOUS & ABOUT &  NEXT BUTTONS FINISH-->
-
+<!--   pre-load gif (Galaxy) -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js">
 </script>
 
 <script src="channel_javascript.js"></script>
+
+<!--  UNMUTE IFRAME SCRIPT -->
+<script>      
+      var tag = document.createElement('script');
+      tag.src = "http://www.youtube.com/player_api";
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+    
+      var player;
+      function onYouTubePlayerAPIReady() {
+        player = new YT.Player('player', {
+          height: '315',
+          width: '560',
+          playerVars: { 'autoplay': 1, 'controls': 0,'autohide':1,'wmode':'opaque','loop':1,'playlist':"d95PPykB2vE" },
+          videoId: 'd95PPykB2vE',
+        width: '100%',
+		height: '800px',
+          events: {
+            'onReady': onPlayerReady}
+        });
+        
+      }
+  
+      function onPlayerReady(event) {
+        event.target.mute();
+      } 
+  
+      function toggleSound() {
+        if (player.isMuted()) {
+          player.unMute()
+        } else {
+          player.mute()
+      }
+      }
+  
+    $('#mute-video').on('click', function(){    
+              toggleSound();     
+        
+      }); 
+  
+</script>
+
 </body>
 </html>
